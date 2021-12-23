@@ -6,7 +6,7 @@ nmap_version = nmap3.Nmap()
 
 
 def scan_nmap(type_scan, ip, list_of_args):
-    	'''
+    '''
 	Methode used to make a nmap scan
 
 	@param type_scan: type de scan (TCP, UDP, SYN, VERSION)
@@ -68,7 +68,7 @@ def scan_nmap(type_scan, ip, list_of_args):
 
 
 def main(type_scan, ip, list_of_args):
-    	'''
+    '''
 	Methode which incorporate nmap function
 	@param type_scan: type de scan (TCP, UDP, SYN, VERSION)
 	@param ip: ip of the target
